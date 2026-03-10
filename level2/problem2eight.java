@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class problem2eight {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter three decimal numbers:");
+
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        double c = sc.nextDouble();
+
+        System.out.println("\nPerforming Double Operations...\n");
+
+        System.out.println("a + b * c = " + (a + b * c));
+        System.out.println("a * b + c = " + (a * b + c));
+        System.out.println("c + a / b = " + (c + a / b));
+        System.out.println("a % b + c = " + (a % b + c));
+
+        sc.close();
+    }
+}
